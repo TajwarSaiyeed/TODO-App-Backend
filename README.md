@@ -1,7 +1,7 @@
 # Project Name: TODO-App-Backend
 
 # Clone this project
-First clone the project from github : ### `git clone https://github.com/TajwarSaiyeed/TODO-App-Backend.git`
+### `git clone https://github.com/TajwarSaiyeed/TODO-App-Backend.git`
 
 # Install dependencies
 ### `npm install`
