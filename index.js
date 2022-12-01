@@ -17,6 +17,7 @@ const run = async () => {
         const todosCollection = client.db("todo-app-backend").collection("todos");
 
         // post todo
+
         app.post('/todo', async (req, res) => {
             const todo = req.body;
             const result = await todosCollection.insertOne(todo);
@@ -25,6 +26,7 @@ const run = async () => {
 
 
         // get al todos
+
         app.get("/todos", async (req, res) => {
             const query = {}
             const result = await todosCollection.find(query).toArray();
@@ -40,7 +42,7 @@ const run = async () => {
             res.status(200).send(result);
         })
 
-        // update todo by id status pending to done
+        // update todo by id => status pending to done
 
         app.put("/todo/:id/done", async (req, res) => {
             const id = req.params.id;
