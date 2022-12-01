@@ -9,4 +9,4 @@ First clone the project from github : ### `git clone https://github.com/TajwarSa
 # Create a db in mongodb and connect the db with the project
 
 # Run the project
-### `npm start-dev`
+### `npm run start-dev`
